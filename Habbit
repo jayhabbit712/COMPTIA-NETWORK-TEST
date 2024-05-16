@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CompTIA A+ Exam 220-1101 - Common Networking Hardware Quiz</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .question {
+            margin-bottom: 20px;
+        }
+        .correct {
+            color: green;
+        }
+        .incorrect {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>CompTIA A+ Exam 220-1101 - Common Networking Hardware Quiz</h1>
+    <div id="quiz"></div>
+    <button onclick="checkAnswers()">Submit</button>
+    <script>
+        const quizData = [
+            {
+                question: "A device designed to filter and transfer data packets between dissimilar types of computer networks is called:",
+                options: ["Hub", "Load balancer", "Router", "Switch"],
+                correct: 2
+            },
+            {
+                question: "Which of the answers listed below refers to a data-link layer device designed to forward frames between network segments?",
+                options: ["Hub", "Switch", "Firewall", "Router"],
+                correct: 1
+            },
+            {
+                question: "A type of layer 2 network switch with configuration features that can be modified through a user interface is known as:",
+                options: ["Virtual switch", "Multilayer switch", "PoE switch", "Managed switch"],
+                correct: 3
+            },
+            {
+                question: "An infrastructure device designed for connecting wireless/wired client devices to a network is commonly referred to as:",
+                options: ["Captive portal", "Access Point (AP)", "Intermediate Distribution Frame (IDF)", "Active hub"],
+                correct: 1
+            },
+            {
+                question: "A simple device consisting of multiple connector blocks and ports used for cable management is known as:",
+                options: ["Media converter", "Demarc", "Main Distribution Frame (MDF)", "Patch panel"],
+                correct: 3
+            },
+            {
+                question: "Which of the following answers refers to a software or hardware that monitors network traffic and depending on the configuration settings applied to each data packet either blocks it or allows it to pass through?",
+                options: ["HIDS", "Firewall", "Packet filter", "Vulnerability scanner"],
+                correct: 1
+            },
+            {
+                question: "A solution that allows to supply electricity over standard Ethernet cables is known as: (Select 2 answers)",
+                options: ["IEEE 802.3ab", "PoE",
